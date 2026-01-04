@@ -11,15 +11,15 @@ import math
 # ============================================
 
 # Inner teeth
-INNER_D_MIN = 6.9             # Diameter minimum
-INNER_D_MAX = 7.3             # Diameter maximumn
+INNER_D_MIN = 7.0             # Diameter minimum
+INNER_D_MAX = 7.5             # Diameter maximumn
 INNER_TEETH = 20              # Number of teeth
 
 INNER_HOLE_D = 5.0            # Diameter bottom hole
 
 # Outer teeth (handle)  
-OUTER_D_MIN = 11.2            # Diameter minimum
-OUTER_D_MAX = 12.0            # Diameter maximum
+OUTER_D_MIN = 11.0            # Diameter minimum
+OUTER_D_MAX = 11.8            # Diameter maximum
 OUTER_TEETH = 20              # Number of teeth
 OUTER_HEIGHT = 14.0           # Outer height
 
@@ -42,7 +42,7 @@ TAPER_H = 2.0                 # Cone height
 
 # Bottom slots  
 BOT_SLOT_COUNT = 4            # Number of slots
-BOT_SLOT_WIDTH = 1.5          # Slot width
+BOT_SLOT_WIDTH = 1.8          # Slot width
 BOT_SLOT_HEIGHT = 4.0         # Slot height
 BOT_SLOT_OFFSET = 45          # Offset relative to the top slots (degrees)
 
@@ -408,4 +408,5 @@ def create_grohe_adapter():
 
 # ============================================
 if __name__ == "__main__":
+
     create_grohe_adapter()
